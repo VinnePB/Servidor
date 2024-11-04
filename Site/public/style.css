@@ -1,0 +1,30 @@
+/* Estilo geral para o fundo */
+body {
+    background-color: #636363;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o container centralizado */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+/* Estilo dos botões principais */
+.button, .back-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #3498db; /* Azul */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+/* Estilo específico para o botão de voltar */
+.back-button {
+    margin-top: 20px;
+}
